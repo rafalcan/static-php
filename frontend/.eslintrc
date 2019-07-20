@@ -1,0 +1,27 @@
+{
+  "extends":                        ["eslint:recommended"],
+  "env":                            {
+      "node":                       true,
+      "browser":                    true,
+      "es6":                        true,
+  },
+  "parserOptions":                  {
+     "ecmaVersion":                 6,
+     "ecmaFeatures":                {
+         "jsx":                     true,
+         "modules":                 true
+    },
+     "sourceType":                  "module",
+     "allowImportExportEverywhere": false,
+     "codeFrame":                   false,
+  },
+  "rules":                          {
+    "no-console":                   "off",
+    "strict":                       0,
+    "no-const-assign":              "warn",
+    "linebreak-style":              0,
+    "indent":                       ["error", 2],
+    "semi":                         ["error", "always"],
+    "no-useless-escape":            0,
+  }
+}

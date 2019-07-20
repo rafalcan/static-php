@@ -1,0 +1,47 @@
+linters:
+  Comment:
+    enabled: false
+
+  ColorVariable:
+    enabled: true
+
+  HexLength:
+    enabled: true
+    style: short # or 'long'
+
+  HexNotation:
+    enabled: true
+    style: lowercase # or 'uppercase'
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 6
+
+  StringQuotes:
+    enabled: true
+    style: single_quotes # or single_quotes
+
+  NestingDepth:
+    enabled: true
+    max_depth: 6
+
+  DeclarationOrder:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: true
+
+  EmptyLineBetweenBlocks:
+    enabled: true
+
+  ImportantRule:
+    enabled: false
+
+  IdSelector:
+    enabled: false
+
+  QualifyingElement:
+    enabled: false
+
+  MergeableSelector:
+    enabled: false
